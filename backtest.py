@@ -707,8 +707,8 @@ ax_proj_mult.legend(fontsize=8)
 ax_proj_mult.grid(True, alpha=0.3, axis="y")
 
 fig2.suptitle("INVESTMENT PROJECTIONS", fontsize=16, fontweight="bold", y=1.01)
-plt.savefig("backtest_projection.png", dpi=150, bbox_inches="tight")
+fig2.savefig("backtest_projection.png", dpi=150, bbox_inches="tight")
 print("Projection chart saved to backtest_projection.png")
 
-plt.savefig("backtest_results.png", dpi=150, bbox_inches="tight")
+fig.savefig("backtest_results.png", dpi=150, bbox_inches="tight")
 print("\nChart saved to backtest_results.png")
